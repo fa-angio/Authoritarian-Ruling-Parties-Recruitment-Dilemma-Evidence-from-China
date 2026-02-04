@@ -25,35 +25,30 @@ In autocracies, party membership offers benefits to citizens who join the ruling
 ```
 .
 ├── README.md
-├── Recruitment Dilemma.Rproj
 │
-├── Data Cleaning Scripts
-│   ├── 2010 CGSS Cleaning.R
-│   ├── 2012 CGSS Cleaning.R
-│   ├── 2013 CGSS Cleaning.R
-│   ├── 2015 CGSS Cleaning.R
-│   └── 2017 CGSS Cleaning.R
-│
-├── Analysis Scripts
-│   ├── Main Empirics.R          # Main empirical analysis
-│   ├── Appendix Empirics.R      # Supplementary analysis
-│   └── Figures.R                # Figure generation
-│
-├── data source/
+├── 1. Compressed Data Source    # OPEN THIS FOLDER FOR DATA SOURCES
 │   ├── cgss2010.sav             # CGSS 2010 survey data
 │   ├── CGSS12Modified.sav       # CGSS 2012 survey data
 │   ├── CGSS13_modified.sav      # CGSS 2013 survey data
 │   ├── cgss2015_14.sav          # CGSS 2015 survey data
-│   ├── cgss2017.dta             # CGSS 2017 survey data
+│   └── cgss2017.dta             # CGSS 2017 survey data
+│
+├── 2. Data                      # THIS FOLDER IS FOR DATA WRANGLING
+│   ├── 2010 CGSS Cleaning.R
+│   ├── 2012 CGSS Cleaning.R
+│   ├── 2013 CGSS Cleaning.R
+│   ├── 2015 CGSS Cleaning.R
+│   ├── 2017 CGSS Cleaning.R
 │   ├── CCP_members_2000-2015.xlsx
 │   ├── database state-party.xlsx
 │   ├── density_membership_cgss.xlsx
 │   └── minidataset Fig1.xlsx
 │
-└── Figures/
-    ├── Fig1.pdf
-    ├── Fig2.pdf
-    └── Fig3.pdf
+├── 3. Analysis Scripts
+│   ├── Main Empirics.R          # Main empirical analysis
+│   ├── Appendix Empirics.R      # Supplementary analysis
+│   └── Figures.R                # Figure generation
+
 ```
 
 ## Data Sources
